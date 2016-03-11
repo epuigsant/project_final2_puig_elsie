@@ -99,6 +99,7 @@ article {
     padding: 2em;
     background-color: #ffffff;
     margin-left: 0.5em;
+    margin-bottom: 1em;
     border-radius: 1em;
 }
 
@@ -119,7 +120,7 @@ article p {
     font-family: 'Open Sans', sans-serif;
 }
 
-section {
+aside {
     float: right;
     width: calc(100% / 2);
 }
@@ -182,6 +183,11 @@ img {
 @media all and (max-width: 600px) {
     article {
         width: calc(100% / 2 * 2);
+        float: right;
+    }
+    aside {
+        float: left;
+        width:  calc(100% / 3)
     }
 }
 
@@ -205,4 +211,14 @@ article a {
     font-style: italic;
     font-weight: 300;
     color: #bf1e2e;
+}
+
+footer {
+    width: 100%;
+    background-color: #133f66;
+    font-family: 'Delius Swash Caps', cursive;
+    color: #ffffff;
+    height: 3em;
+    text-align: center;
+    font-size: 1.5em;
 }
