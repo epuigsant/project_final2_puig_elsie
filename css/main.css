@@ -116,6 +116,42 @@ section {
     height: 10em;
 }
 
+.color-swatches ul {
+    margin: 0;
+    padding: 0;
+}
+
+.color-swatches li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    border: 0.3em solid #e0e0e0;
+    width: 5em;
+    margin: 0 2% 2% 0;
+    height: 5em;
+    background-color: #000000;
+}
+
+.color-swatches .blue {
+    background-color: #133f66;
+}
+
+.color-swatches .red {
+    background-color: #bf1e2e;
+}
+
+.color-swatches .yellow {
+    background-color: #d7b424;
+}
+
+.color-swatches .green {
+    background-color: #6f9929;
+}
+
+.color-swatches .brown {
+    background-color: #4e2b19;
+}
+
 img {
     max-width: 100%;
 }
