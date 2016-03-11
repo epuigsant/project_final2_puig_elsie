@@ -9,7 +9,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-image: image("img/background.jpg");
+    background-image: image("../img/background.jpg");
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,4 +34,47 @@ body {
     padding: 0;
     position: absolute;
     width: 1px;
+}
+
+nav ul {
+    margin-top: 0;
+    margin-bottom: 1em;
+    padding: 0.5em 0;
+    list-style: none;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1px;
+}
+
+li a {
+    display: block;
+    min-width: 2em;
+    padding: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    background-color: #d7b424;
+    color: #133f66;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: #bf1e2e;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 760px) {
+    li {
+        margin-bottom: 1px;
+    }
+    ul li,
+    li a {
+        width: 100%;
+    }
 }
