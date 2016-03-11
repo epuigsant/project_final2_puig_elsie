@@ -64,17 +64,18 @@ li a {
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    font-family: sans-serif;
-    background-color: #d7b424;
-    color: #133f66;
-    font-weight: 500;
+    background-color: #133f66;
+    color: #ffffff;
+    font-weight: 600;
     border-radius: 3px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 li a:hover {
     text-decoration: none;
-    color: #bf1e2e;
-    font-weight: 700;
+    color: #d7b424;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 760px) {
