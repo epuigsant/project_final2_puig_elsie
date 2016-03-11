@@ -2,7 +2,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -11,6 +13,10 @@ body {
     padding: 0;
     background-image: image("../img/background.jpg");
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
 }
 
 #logo {
@@ -77,4 +83,29 @@ li a:hover {
     li a {
         width: 100%;
     }
+}
+
+main {
+    margin: 0 auto;
+    width: 100%;
+}
+
+article {
+    width: calc(100% / 2);
+    float: left;
+    padding: 3em;
+}
+
+section {
+    float: right;
+    width: calc(100% / 2);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    clear: both;
 }
