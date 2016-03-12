@@ -5,17 +5,18 @@
     <title>Shirley's Sandwiches Style Prototype</title>
     <meta name="description" content="shirley's sandwiches style prototype">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Fredoka+One|Open+Sans:400,600,700,700italic,800,300,400italic,300italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/vendor/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Delius+Swash+Caps|Fredoka+One|Open+Sans:400,600,700,700italic,800,300,400italic,300italic" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <header>
+    <h1 class="visuallyhidden"><a href="#">Shirley's Sandwiches</a></h1>
+    <header class="header">
         <div id="logo">
-            <h1 class="visuallyhidden"><a href="#">Shirley's Sandwiches</a></h1>
             <img src="img/logo.png" alt="logo">
         </div>
-        <nav>
+    <div class="container">
+        <nav id="navigation">
             <h2 class="visuallyhidden">Navigation</h2>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -23,9 +24,10 @@
                 <li><a href="#">Menu</a></li>
             </ul>
         </nav>
+    </div>
     </header>
-    <main>
-        <article>
+    <main class="main container">
+        <article id="main-content" class="one-of-two column">
             <h1>Welcome to Shirley's Sandwiches</h1>
             <h2>Your Friendly College Deli</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tincidunt aliquet risus. Nam iaculis tempus tempus. Fusce sodales arcu lorem. Sed ultrices pharetra blandit. Fusce congue vel ante a aliquam. Vestibulum posuere nunc sed bibendum tempus. Cras leo magna, imperdiet a eleifend in, aliquam eu elit. Duis sed lectus turpis. </p>
@@ -33,21 +35,21 @@
             <p>Praesent blandit leo justo, eu porttitor dui feugiat et. Maecenas consequat, dui nec porta finibus, urna ligula imperdiet est, id lacinia lorem libero id quam. Integer rutrum mauris eget felis porttitor sollicitudin. Praesent eu fermentum massa. Aliquam egestas mauris elit. Suspendisse odio risus, pulvinar non augue ac, euismod convallis nibh. In hac habitasse platea dictumst. Nullam tincidunt neque in elit blandit, sit amet mollis felis accumsan. </p>
             <button name="sample cta button">Learn More</button>
         </article>
-        <aside>
+        <aside id="sidebar" class="one-of-two column">
             <h1 class="visuallyhidden">Colors and Textures</h1>
-            <section>
+            <section class="sections">
                 <h2>Colors</h2>
                 <div class="color-swatches">
                     <ul>
-                        <li class="blue"></li>
-                        <li class="red"></li>
-                        <li class="yellow"></li>
-                        <li class="green"></li>
-                        <li class="brown"></li>
+                        <li><div class="swatch blue"></div></li>
+                        <li><div class="swatch red"></div></li>
+                        <li><div class="swatch yellow"></div></li>
+                        <li><div class="swatch green"></div></li>
+                        <li><div class="swatch brown"></div></li>
                     </ul>
                 </div>
             </section>
-            <section>
+            <section class="sections">
                 <h2>Images</h2>
                 <div class="image-swatches">
                 <ul>
@@ -59,7 +61,7 @@
             </section>
         </aside>
     </main>
-    <footer>
+    <footer id="footer">
         <p>Responsive Style Prototype by Elsie Puig</p>
     </footer>
     <script src="js/main.js"></script>
